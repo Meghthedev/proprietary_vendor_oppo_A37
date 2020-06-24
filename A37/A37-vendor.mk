@@ -37,7 +37,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/oppo/A37/proprietary/vendor/bin/radish:system/vendor/bin/radish \
     vendor/oppo/A37/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
-    vendor/oppo/A37/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/oppo/A37/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms \
     vendor/oppo/A37/proprietary/vendor/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/oppo/A37/proprietary/vendor/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
@@ -247,7 +246,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/oppo/A37/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/oppo/A37/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/oppo/A37/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/oppo/A37/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/oppo/A37/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/oppo/A37/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.1-service.widevine \
