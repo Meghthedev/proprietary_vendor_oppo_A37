@@ -270,10 +270,43 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
     vendor/oppo/A37/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so
 
+# IMS
+PRODUCT_COPY_FILES += \
+	vendor/oppo/A37/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon \
+	vendor/oppo/A37/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
+	vendor/oppo/A37/proprietary/vendor/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
+	vendor/oppo/A37/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
+	vendor/oppo/A37/proprietary/vendor/framework/ims-common.jar:system/vendor/framework/ims-common.jar \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsvt.so:system/vendor/lib/lib-imsvt.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-rcsimssjni.so:system/vendor/lib/lib-rcsimssjni.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-rcsjni.so:system/vendor/lib/lib-rcsjni.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-rtpcommon.so:system/vendor/lib/lib-rtpcommon.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
+	vendor/oppo/A37/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
+	vendor/oppo/A37/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
+	vendor/oppo/A37/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+	vendor/oppo/A37/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
+	vendor/oppo/A37/proprietary/vendor/lib/libvoice-svc.so:system/vendor/lib/libvoice-svc.so
+
+
 PRODUCT_PACKAGES += \
+    ims \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
     shutdownlistener \
     TimeService \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
