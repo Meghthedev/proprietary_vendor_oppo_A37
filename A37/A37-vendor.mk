@@ -40,7 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
     vendor/oppo/A37/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/oppo/A37/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
-    vendor/oppo/A37/proprietary/lib/sensors.a6000.so:system/lib/sensors.a6000.so \
     vendor/oppo/A37/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/oppo/A37/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/oppo/A37/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
@@ -198,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
-    vendor/oppo/A37/proprietary/vendor/lib/libmm-omxcore.so:system/vendor/lib/libmm-omxcore.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
