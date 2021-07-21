@@ -15,10 +15,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt
 
 PRODUCT_COPY_FILES += \
-    vendor/oppo/A37/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
-    vendor/oppo/A37/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:system/vendor/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/oppo/A37/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
+    vendor/oppo/A37/proprietary/vendor/bin/adsprpcd:system/vendor/bin/hci_qcomm_init \
     vendor/oppo/A37/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/oppo/A37/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/oppo/A37/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
@@ -75,8 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
-    vendor/oppo/A37/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:system/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
-    vendor/oppo/A37/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
     vendor/oppo/A37/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/oppo/A37/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/oppo/A37/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
