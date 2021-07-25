@@ -208,6 +208,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqmi_client_helper.so:system/vendor/lib/libqmi_client_helper.so \
     vendor/oppo/A37/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
