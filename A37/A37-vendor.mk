@@ -93,6 +93,10 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     vendor/oppo/A37/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/oppo/A37/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_hi545_15399_common.so:system/vendor/lib/libchromatix_hi545_15399_common.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_hi545_15399_default_video.so:system/vendor/lib/libchromatix_hi545_15399_default_video.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_hi545_15399_preview.so:system/vendor/lib/libchromatix_hi545_15399_preview.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libchromatix_hi545_15399_snapshot.so:system/vendor/lib/libchromatix_hi545_15399_snapshot.so \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_common.so:system/vendor/lib/libchromatix_imx179_15399_common.so \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_common_new.so:system/vendor/lib/libchromatix_imx179_15399_common_new.so \
     vendor/oppo/A37/proprietary/vendor/lib/libchromatix_imx179_15399_default_video.so:system/vendor/lib/libchromatix_imx179_15399_default_video.so \
@@ -164,6 +168,7 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_ov5648_15399.so:system/vendor/lib/libmmcamera_ov5648_15399.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
+    vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_hi545_15399.so:system/vendor/lib/libmmcamera_hi545_15399.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_imx179_15399.so:system/vendor/lib/libmmcamera_imx179_15399.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_sony_imx179_eeprom.so:system/vendor/lib/libmmcamera_sony_imx179_eeprom.so \
     vendor/oppo/A37/proprietary/vendor/lib/libmmcamera_s5k3h7_15399.so:system/vendor/lib/libmmcamera_s5k3h7_15399.so \
